@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom & Petal - Artisan Flower Shop</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Bloom<span>&Petal</span></div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span class="toggle-label">Dark Mode</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="animate-section">
+        <div class="container">
+            <div class="hero-content animate-item">
+                <h1>Fresh Flowers for Every Occasion</h1>
+                <p>We carefully select the finest blooms to create stunning arrangements that bring beauty and joy to your special moments.</p>
+                <a href="#products" class="btn">Explore Our Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="animate-section">
+        <div class="container">
+            <h2 class="animate-item">About Us</h2>
+            <div class="about-content">
+                <div class="about-text animate-item">
+                    <p>Bloom & Petal was founded in 2015 with a simple mission: to share the beauty of nature through artfully crafted floral arrangements.</p>
+                    <p>Our team of passionate florists brings years of experience and creativity to every bouquet we create. We source our flowers from local and sustainable farms whenever possible, ensuring that each bloom is fresh and environmentally conscious.</p>
+                    <p>Whether you're celebrating a special occasion, expressing your feelings, or simply bringing some natural beauty into your home, we're here to help you find the perfect floral expression.</p>
+                    <a href="#contact" class="btn">Get in Touch</a>
+                </div>
+                <div class="about-image animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Our flower shop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="animate-section">
+        <div class="container">
+            <h2 class="animate-item">Our Products</h2>
+            <p class="animate-item">Browse our selection of handcrafted arrangements, perfect for any occasion.</p>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Spring Bouquet" class="product-img">
+                    <div class="product-info">
+                        <h3>Spring Delight</h3>
+                        <p>A vibrant mix of seasonal spring flowers including tulips, daffodils, and hyacinths.</p>
+                        <div class="price">$45.99</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Rose Arrangement" class="product-img">
+                    <div class="product-info">
+                        <h3>Classic Romance</h3>
+                        <p>Elegant arrangement of premium red roses, perfect for expressing love and appreciation.</p>
+                        <div class="price">$59.99</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Succulent Garden" class="product-img">
+                    <div class="product-info">
+                        <h3>Succulent Garden</h3>
+                        <p>Low-maintenance succulent arrangement in a stylish container, perfect for home or office.</p>
+                        <div class="price">$39.99</div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Tropical Paradise" class="product-img">
+                    <div class="product-info">
+                        <h3>Tropical Paradise</h3>
+                        <p>Exotic arrangement featuring bird of paradise, orchids, and tropical foliage.</p>
+                        <div class="price">$65.99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="animate-section">
+        <div class="container">
+            <h2 class="animate-item">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info animate-item">
+                    <p>We'd love to hear from you! Whether you have questions about our products, need help placing an order, or want to discuss a custom arrangement, our team is here to assist you.</p>
+                    <p><strong>Address:</strong><br>123 Bloom Street<br>Floral City, FC 12345</p>
+                    <p><strong>Hours:</strong><br>Monday-Friday: 9am-6pm<br>Saturday: 10am-4pm<br>Sunday: Closed</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> hello@bloomandpetal.com</p>
+                </div>
+                <div class="contact-form animate-item">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" id="submitBtn">Send Message</button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo">Bloom<span>&Petal</span></div>
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">📸</a>
+                <a href="#" class="social-link">🐦</a>
+                <a href="#" class="social-link">📌</a>
+            </div>
+            <p>&copy; 2025 Bloom & Petal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore compiled CSS files
+assets/css/*.css
+
+# Ignore compiled JavaScript files
+assets/js/*.js
+
+# Ignore image files (assuming they are already optimized)
+assets/img/*
+
+# Ignore dark mode CSS file (assuming it's generated dynamically)
+assets/css/dark-mode.css
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+.editorconfig
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore gitignore backups
+*.gitignore~
+
+# Ignore local development environment files
+.env
