@@ -55,6 +55,34 @@ body.dark-mode .product-info p {
     color: #aaa;
 }
 
+/* FAQ Section */
+body.dark-mode #faq {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .faq-item {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials Section */
+body.dark-mode #testimonials {
+    background-color: #121212;
+}
+
+body.dark-mode .testimonial-card {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .testimonial-info h3 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .testimonial-info p {
+    color: #aaa;
+}
+
 /* Contact Section */
 body.dark-mode #contact {
     background-color: #1e1e1e;
