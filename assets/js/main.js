@@ -38,3 +38,23 @@ window.addEventListener('scroll', () => {
 scrollToTopButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+const testimonialsContainer = document.querySelector('.testimonials-container');
+const testimonialCards = document.querySelectorAll('.testimonial-card');
+
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  const containerTop = testimonialsContainer.offsetTop;
+  const containerHeight = testimonialsContainer.offsetHeight;
+
+  testimonialCards.forEach((card, index) => {
+    const cardTop = card.offsetTop;
+    const cardHeight = card.offsetHeight;
+
+    if (scrollPosition + window.innerHeight > containerTop + cardTop && scrollPosition < containerTop + cardTop + cardHeight) {
+      card.classList.add('show');
+    } else {
+      card.classList.remove('show');
+    }
+  });
+});

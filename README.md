@@ -37,3 +37,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Acknowledgments
 
 * [Codeium](https://codeium.com) for providing the AI-powered code assistant used in this project.
+* [Claude](https://www.anthropic.com) for providing the AI-powered code assistant used in this project.

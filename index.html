@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloom & Petal - Artisan Flower Shop</title>
+    <title>Huzur Mostar - Artisan Flower Shop</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/dark-mode.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
+
 <body>
     <!-- Header and Navigation -->
     <header>
         <nav>
-            <div class="logo">Bloom<span>&Petal</span></div>
+            <div class="logo">Huzur<span>Mostar</span></div>
             <div class="nav-links" id="navLinks">
                 <a href="#home">Home</a>
                 <a href="#about">About Us</a>
                 <a href="#products">Products</a>
+                <a href="#faq">FAQ's</a>
+                <a href="#testimonials">Testimonials</a>
                 <a href="#contact">Contact</a>
             </div>
             <div class="theme-switch-wrapper">
                 <label class="theme-switch" for="checkbox">
                     <input type="checkbox" id="checkbox" />
-                    <div class="slider round"></div>
+                    <i class="fas fa-sun" id="sun-icon"></i>
+                    <i class="fas fa-moon" id="moon-icon"></i>
                 </label>
-                <span class="toggle-label">Dark Mode</span>
             </div>
-            <div class="menu-toggle" id="menuToggle">☰</div>
         </nav>
     </header>
 
@@ -37,7 +41,8 @@
         <div class="container">
             <div class="hero-content animate-item">
                 <h1>Fresh Flowers for Every Occasion</h1>
-                <p>We carefully select the finest blooms to create stunning arrangements that bring beauty and joy to your special moments.</p>
+                <p>We carefully select the finest blooms to create stunning arrangements that bring beauty and joy to
+                    your special moments.</p>
                 <a href="#products" class="btn">Explore Our Collection</a>
             </div>
         </div>
@@ -49,9 +54,13 @@
             <h2 class="animate-item">About Us</h2>
             <div class="about-content">
                 <div class="about-text animate-item">
-                    <p>Bloom & Petal was founded in 2015 with a simple mission: to share the beauty of nature through artfully crafted floral arrangements.</p>
-                    <p>Our team of passionate florists brings years of experience and creativity to every bouquet we create. We source our flowers from local and sustainable farms whenever possible, ensuring that each bloom is fresh and environmentally conscious.</p>
-                    <p>Whether you're celebrating a special occasion, expressing your feelings, or simply bringing some natural beauty into your home, we're here to help you find the perfect floral expression.</p>
+                    <p>Bloom & Petal was founded in 2015 with a simple mission: to share the beauty of nature through
+                        artfully crafted floral arrangements.</p>
+                    <p>Our team of passionate florists brings years of experience and creativity to every bouquet we
+                        create. We source our flowers from local and sustainable farms whenever possible, ensuring that
+                        each bloom is fresh and environmentally conscious.</p>
+                    <p>Whether you're celebrating a special occasion, expressing your feelings, or simply bringing some
+                        natural beauty into your home, we're here to help you find the perfect floral expression.</p>
                     <a href="#contact" class="btn">Get in Touch</a>
                 </div>
                 <div class="about-image animate-item">
@@ -103,6 +112,102 @@
                         <div class="price">$65.99</div>
                     </div>
                 </div>
+                <!-- Product 5 -->
+                <div class="product-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Bouquet" class="product-img">
+                    <div class="product-info">
+                        <h3>Bouquet</h3>
+                        <p>Exotic arrangement featuring bird of paradise, orchids, and tropical foliage.</p>
+                        <div class="price">$29.99</div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Cactus" class="product-img">
+                    <div class="product-info">
+                        <h3>Cactus</h3>
+                        <p>Exotic arrangement featuring bird of paradise, orchids, and tropical foliage.</p>
+                        <div class="price">$10.99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="animate-section">
+        <div class="container">
+            <h2 class="animate-item">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item animate-item">
+                    <div class="faq-question">How can I place an order?</div>
+                    <div class="faq-answer">You can place an order by visiting our website and clicking on the "Order"
+                        button. Once you're logged in, you can select the desired products and proceed to checkout.</div>
+                </div>
+                <div class="faq-item animate-item">
+                    <div class="faq-question">What payment methods are accepted?</div>
+                    <div class="faq-answer">We accept various payment methods, including credit cards, debit cards, and
+                        PayPal. You can choose the preferred method during checkout.</div>
+                </div>
+                <div class="faq-item animate-item">
+                    <div class="faq-question">What is your return policy?</div>
+                    <div class="faq-answer">We offer a 14-day return policy. If you receive a damaged or incorrect
+                        product, please contact our customer support team for assistance.</div>
+                </div>
+                <div class="faq-item animate-item">
+                    <div class="faq-question">Can I track my order?</div>
+                    <div class="faq-answer">Yes, you can track your order by logging into your account and visiting
+                        your order history.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="animate-section">
+        <div class="container">
+            <h2 class="animate-item">What Our Customers Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Customer 1" class="testimonial-img">
+                    <p>"I was blown away by the quality of the arrangements I received from Bloom & Petal. The flowers
+                        were
+                        fresh, vibrant, and perfectly matched to my event. Highly recommended!"</p>
+                    <p class="testimonial-name">- Jane Doe</p>
+                </div>
+                <div class="testimonial-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Customer 2" class="testimonial-img">
+                    <p>"I couldn't be happier with my purchase from Bloom & Petal. The bouquet was stunning, and the
+                        customer service was exceptional. I will definitely be back!"</p>
+                    <p class="testimonial-name">- John Smith</p>
+                </div>
+                <div class="testimonial-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Customer 3" class="testimonial-img">
+                    <p>"Bloom & Petal exceeded my expectations in every way. The flowers were gorgeous, and the delivery
+                        was
+                        prompt and professional. I highly recommend them!"</p>
+                    <p class="testimonial-name">- Emily Chen</p>
+                </div>
+                <div class="testimonial-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Customer 4" class="testimonial-img">
+                    <p>"I've never been disappointed with a purchase from Bloom & Petal. Their flowers are always fresh
+                        and
+                        beautiful, and their customer service is top-notch."</p>
+                    <p class="testimonial-name">- David Lee</p>
+                </div>
+                <div class="testimonial-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Customer 5" class="testimonial-img">
+                    <p>"Bloom & Petal is my go-to florist for any occasion. Their arrangements are always stunning, and
+                        their prices are very reasonable."</p>
+                    <p class="testimonial-name">- Sophia Patel</p>
+                </div>
+                <div class="testimonial-card animate-item">
+                    <img src="assets/img/placeholder.jpg" alt="Customer 6" class="testimonial-img">
+                    <p>"I was impressed with the quality of the arrangements I received from Bloom & Petal. The flowers
+                        were
+                        fresh, vibrant, and perfectly matched to my event. Highly recommended!"</p>
+                    <p class="testimonial-name">- Jane Doe</p>
+                </div>
             </div>
         </div>
     </section>
@@ -113,7 +218,8 @@
             <h2 class="animate-item">Contact Us</h2>
             <div class="contact-container">
                 <div class="contact-info animate-item">
-                    <p>We'd love to hear from you! Whether you have questions about our products, need help placing an order, or want to discuss a custom arrangement, our team is here to assist you.</p>
+                    <p>We'd love to hear from you! Whether you have questions about our products, need help placing an
+                        order, or want to discuss a custom arrangement, our team is here to assist you.</p>
                     <p><strong>Address:</strong><br>123 Bloom Street<br>Floral City, FC 12345</p>
                     <p><strong>Hours:</strong><br>Monday-Friday: 9am-6pm<br>Saturday: 10am-4pm<br>Sunday: Closed</p>
                     <p><strong>Phone:</strong> (555) 123-4567</p>
@@ -148,14 +254,14 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="logo">Bloom<span>&Petal</span></div>
+            <div class="logo">Huzur<span>Mostar</span></div>
             <div class="social-links">
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-facebook-f"></i>
                 <i class="fa fa-whatsapp"></i>
             </div>
             <button id="scrollToTop" title="Scroll to top">↑</button>
-            <p>&copy; 2025 Bloom & Petal. All rights reserved.</p>
+            <p>&copy; 2025 Huzur Mostar. All rights reserved.</p>
         </div>
     </footer>
 
@@ -164,4 +270,5 @@
     <script src="assets/js/animations.js"></script>
     <script src="assets/js/form.js"></script>
 </body>
+
 </html>
