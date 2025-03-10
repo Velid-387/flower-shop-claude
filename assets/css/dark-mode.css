@@ -21,7 +21,13 @@ body.dark-mode .nav-links a:hover {
 /* Home Section */
 body.dark-mode #home {
     background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)),
-                url('../img/placeholder.jpg');
+        url('/assets/img/huzur-home.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: background 0.3s ease;
 }
 
 body.dark-mode .hero-content h1 {

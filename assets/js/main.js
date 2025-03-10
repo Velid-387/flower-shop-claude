@@ -1,12 +1,7 @@
 // Main JavaScript functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
-    const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
-    
-    menuToggle.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
 
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

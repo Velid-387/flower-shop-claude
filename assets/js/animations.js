@@ -1,3 +1,6 @@
+// Get all product images
+const productImages = document.querySelectorAll('.product-img');
+
 // Animation control
 document.addEventListener('DOMContentLoaded', function() {
     // Initial animation check
@@ -39,4 +42,18 @@ document.addEventListener('DOMContentLoaded', function() {
             rect.bottom >= 0
         );
     }
+});
+
+// Add event listener to each image
+productImages.forEach((image) => {
+  image.addEventListener('click', () => {
+    // Add a temporary class to override the :hover pseudo-class
+    image.classList.add('clicked');
+    // Remove the temporary class after a short delay
+    setTimeout(() => {
+      image.classList.remove('clicked');
+    }, 100);
+    // Toggle the 'enlarged' class on the image
+    image.classList.toggle('enlarged');
+  });
 });
