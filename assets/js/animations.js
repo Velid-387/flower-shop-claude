@@ -2,7 +2,7 @@
 const productImages = document.querySelectorAll('.product-img');
 
 // Array of titles
-const titles = ["Fresh Flowers for Every Occasion", "Beautiful Bouquets for All", "Stunning Arrangements for Any Event"];
+const titles = ["Huzur Mostar", "Svježe cvijeće za sve prilike", "Predivni buketi za sve generacije", "Bidermajeri za vjenčanja"];
 const h1Element = document.querySelector("#home h1");
 
 let titleIndex = 0;
