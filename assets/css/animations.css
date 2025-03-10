@@ -69,10 +69,24 @@ header {
     }
 }
 
+@keyframes delete-text {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+}
 #home .hero-content {
     animation: fadeIn 1s ease 0.3s forwards;
     opacity: 0;
 }
+
+#home h1 {
+    font-family: monospace; /* use a monospace font to mimic a typewriter */
+}  
 
 /* Scroll animations - these will be controlled by JavaScript */
 .animate-item {
