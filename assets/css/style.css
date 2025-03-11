@@ -141,6 +141,13 @@ p {
     margin-bottom: 2rem;
 }
 
+.animated-text-container {
+    white-space: normal;
+    min-height: 100px;
+    overflow: hidden;
+    display: inline-block;
+}
+
 /* About section */
 #about {
     background-color: #f8f9fa;

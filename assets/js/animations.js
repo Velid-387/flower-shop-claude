@@ -9,6 +9,7 @@ const titles = [
   "Bidermajeri za vjenčanja",
 ];
 const h1Element = document.querySelector("#home h1");
+const animatedTextElement = document.querySelector("#animated-text");
 
 let titleIndex = 0;
 let charIndex = 0;
