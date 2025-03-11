@@ -12,10 +12,20 @@ body.dark-mode header {
 
 body.dark-mode .nav-links a {
     color: #e0e0e0;
+    text-decoration: none;
 }
 
-body.dark-mode .nav-links a:hover {
+body.dark-mode .nav-links a.active {
     color: #e76f51;
+}
+
+body.dark-mode .nav-links a.inactive {
+    color: #333;
+    border-bottom: none;
+}
+
+body.dark-mode .nav-links a.selected {
+    color: #e76f51 !important;
 }
 
 /* Home Section */

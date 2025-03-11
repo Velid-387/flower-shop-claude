@@ -25,12 +25,12 @@
                 Huzur<span>Mostar</span>
             </div>
             <div class="nav-links" id="navLinks">
-                <a href="#home">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#products">Products</a>
-                <a href="#faq">FAQ's</a>
-                <a href="#testimonials">Testimonials</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">Početna</a>
+                <a href="#about">O nama</a>
+                <a href="#products">Naša ponuda</a>
+                <a href="#faq">Najčešća pitanja</a>
+                <a href="#testimonials">Drugi o nama</a>
+                <a href="#contact">Kontakt</a>
             </div>
             <div class="theme-switch-wrapper">
                 <label class="theme-switch" for="checkbox">
@@ -46,10 +46,12 @@
     <section id="home" class="animate-section">
         <div class="container">
             <div class="hero-content animate-item">
-                <h1>Fresh Flowers for Every Occasion</h1>
+                <div class="animated-text-container">
+                    <h1>Huzur Mostar</h1>
+                </div>
                 <p>We carefully select the finest blooms to create stunning arrangements that bring beauty and joy to
                     your special moments.</p>
-                <a href="#products" class="btn">Explore Our Collection</a>
+                <a href="#products" class="btn">Istražite našu ponudu</a>
             </div>
         </div>
     </section>
@@ -57,21 +59,23 @@
     <!-- About Section -->
     <section id="about" class="animate-section">
         <div class="container">
-            <h2 class="animate-item">About Us</h2>
+            <h2 class="animate-item">O nama</h2>
             <div class="about-content">
                 <div class="about-text animate-item">
                     <p>Bloom & Petal was founded in 2015 with a simple mission: to share the beauty of nature through
                         artfully crafted floral arrangements.</p>
-                    <p>Our team of passionate florists brings years of experience and creativity to every bouquet we
-                        create. We source our flowers from local and sustainable farms whenever possible, ensuring that
-                        each bloom is fresh and environmentally conscious.</p>
-                    <p>Whether you're celebrating a special occasion, expressing your feelings, or simply bringing some
-                        natural beauty into your home, we're here to help you find the perfect floral expression.</p>
-                    <a href="#contact" class="btn">Get in Touch</a>
+                    <p>Huzur predstavlja mir u svim dimenzijama života. Huzurlu osoba je ispunjen čovjek, spokojan,
+                        emotivno i tjelesno zdrav. Onaj koji je spoznao da materijalno nije odrednica vrijednosti, koji
+                        je pronikao u srž duhovnosti, zavolio sebe, svoje unutarnje ja i stvorio apsolutnu ravnotežu u
+                        svom mikrosvijetu.</p>
+                    <p> Huzur kao ravnoteža duše, osjećanja, ravnoteža želja i stvarnosti, mašte i realnosti. Huzur kao
+                        iskonska sreća, jer čovjek može biti miran iako nije sretan, ali ne može biti sretan ako nije
+                        miran.</p>
+                    <a href="#contact" class="btn">Kontaktirajte nas</a>
                 </div>
                 <div class="about-image animate-item">
-                    <img src="assets/img/huzur-radnja.png" alt="Our flower shop"  class="image">
-                    <div class="image-overlay">Marsala Tita 134</div>
+                    <img src="assets/img/huzur-radnja.png" alt="Our flower shop" class="image">
+                    <div class="image-overlay">Maršala Tita 134</div>
                 </div>
             </div>
         </div>
@@ -80,7 +84,7 @@
     <!-- Products Section -->
     <section id="products" class="animate-section">
         <div class="container">
-            <h2 class="animate-item">Our Products</h2>
+            <h2 class="animate-item">Naša ponuda</h2>
             <p class="animate-item">Browse our selection of handcrafted arrangements, perfect for any occasion.</p>
             <div class="products-grid">
                 <!-- Product 1 -->
@@ -144,12 +148,13 @@
     <!-- FAQ Section -->
     <section id="faq" class="animate-section">
         <div class="container">
-            <h2 class="animate-item">Frequently Asked Questions</h2>
+            <h2 class="animate-item">Najčešće postavljena pitanja</h2>
             <div class="faq-container">
                 <div class="faq-item animate-item">
                     <div class="faq-question">How can I place an order?</div>
                     <div class="faq-answer">You can place an order by visiting our website and clicking on the "Order"
-                        button. Once you're logged in, you can select the desired products and proceed to checkout.</div>
+                        button. Once you're logged in, you can select the desired products and proceed to checkout.
+                    </div>
                 </div>
                 <div class="faq-item animate-item">
                     <div class="faq-question">What payment methods are accepted?</div>
@@ -173,7 +178,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="animate-section">
         <div class="container">
-            <h2 class="animate-item">What Our Customers Say</h2>
+            <h2 class="animate-item">Šta naše mušterije kažu o nama</h2>
             <div class="testimonials-container">
                 <div class="testimonial-card animate-item">
                     <p>"I was blown away by the quality of the arrangements I received from Bloom & Petal. The flowers
@@ -216,7 +221,7 @@
     <!-- Contact Section -->
     <section id="contact" class="animate-section">
         <div class="container">
-            <h2 class="animate-item">Contact Us</h2>
+            <h2 class="animate-item">Kontaktirajte nas</h2>
             <div class="contact-container">
                 <div class="contact-info animate-item">
                     <p>We'd love to hear from you! Whether you have questions about our products, need help placing an
@@ -244,7 +249,7 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" required></textarea>
                         </div>
-                        <button type="submit" class="btn" id="submitBtn">Send Message</button>
+                        <button type="submit" class="btn" id="submitBtn">Pošalji poruku</button>
                         <div id="formStatus" class="form-status"></div>
                     </form>
                 </div>
@@ -257,18 +262,21 @@
         <div class="container">
             <div class="logo">Huzur<span>Mostar</span></div>
             <div class="social-links">
-                <a href="https://www.instagram.com/huzur.mostar/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/huzur.mostar" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://maps.app.goo.gl/DdDaVcZdhBz1M9HM7" target="_blank">
-                    <i class="fa fa-map-marker"></i>
-                </a>
+                <h3>Pratite nas</h3>
+                <div class="links">
+                    <a href="https://www.instagram.com/huzur.mostar/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/huzur.mostar" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://maps.app.goo.gl/hL1ufk8A72UMajRF7" target="_blank">
+                        <i class="fa fa-map-marker"></i>
+                    </a>
+                </div>
             </div>
             <button id="scrollToTop" title="Scroll to top">↑</button>
-            <p>&copy; 2025 Huzur Mostar. All rights reserved.</p>
+            <p>&copy; 2025 Huzur Mostar. Sva prava pridržana.</p>
         </div>
     </footer>
 
