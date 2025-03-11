@@ -90,11 +90,6 @@ header {
     opacity: 0;
 }
 
-#home h1 {
-    font-family: monospace;
-    /* use a monospace font to mimic a typewriter */
-}
-
 /* Scroll animations - these will be controlled by JavaScript */
 .animate-item {
     opacity: 0;

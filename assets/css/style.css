@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 html {
@@ -65,10 +65,18 @@ nav {
     text-decoration: none;
     color: #333;
     font-weight: 500;
-    transition: color 0.3s;
 }
 
-.nav-links a:hover {
+.nav-links a.active {
+    color: #e76f51;
+}
+
+.nav-links a.inactive {
+    color: #333;
+    border-bottom: none;
+}
+
+.nav-links a.selected {
     color: #e76f51;
 }
 
@@ -432,7 +440,7 @@ p {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #7a7a7a;
     color: #ffffff;
     text-align: center;
     padding: 2rem;
