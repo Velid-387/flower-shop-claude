@@ -22,10 +22,6 @@ This website is designed to showcase the beautiful arrangements and products off
 * JavaScript for interactive functionality
 * Responsive design for adaptability to different screen sizes
 
-## Installation
-
-To run the website locally, simply clone the repository and open the `index.html` file in a web browser.
-
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or ideas for improving the website, please submit a pull request or open an issue.
@@ -33,8 +29,3 @@ Contributions are welcome! If you have any suggestions or ideas for improving th
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Acknowledgments
-
-* [Codeium](https://codeium.com) for providing the AI-powered code assistant used in this project.
-* [Claude](https://www.anthropic.com) for providing the AI-powered code assistant used in this project.
