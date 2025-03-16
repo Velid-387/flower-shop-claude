@@ -102,3 +102,7 @@ mobileNavMenu.addEventListener('click', (e) => {
     mobileNavMenu.classList.remove('open');
   }
 });
+
+const copyrightElement = document.querySelector('#copyright');
+const currentYear = new Date().getFullYear();
+copyrightElement.innerHTML = `&copy; ${currentYear} Huzur Mostar. Sva prava pridržana.`;
