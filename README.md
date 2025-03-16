@@ -21,11 +21,3 @@ This website is designed to showcase the beautiful arrangements and products off
 * CSS3 for styling and layout
 * JavaScript for interactive functionality
 * Responsive design for adaptability to different screen sizes
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or ideas for improving the website, please submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
