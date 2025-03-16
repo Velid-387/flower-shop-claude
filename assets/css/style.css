@@ -121,6 +121,10 @@ p {
     border-radius: 50px;
 }
 
+.animate-section {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Hero section */
 #home {
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
@@ -131,6 +135,10 @@ p {
     align-items: center;
     text-align: center;
     transition: background 0.3s ease;
+}
+
+#home .btn {
+    animation: bounce 1.5s ease-in-out infinite;
 }
 
 .hero-content {
@@ -254,7 +262,6 @@ p {
 .product-img.enlarged {
     transform: scale(1.1);
 }
-
 
 .product-info {
     padding: 1.5rem;
@@ -537,6 +544,15 @@ footer {
     cursor: pointer;
 }
 
+/* .hamburger-menu span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+} */
+
 .hamburger-menu span {
     display: block;
     width: 20px;
@@ -544,7 +560,19 @@ footer {
     background-color: #333;
     margin-bottom: 5px;
     transition: all 0.3s;
-}
+  }
+
+  .hamburger-menu.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger-menu.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
 
 /* Style the mobile nav menu */
 .mobile-nav-menu {
@@ -556,7 +584,6 @@ footer {
     background-color: #f9f9f9;
     padding: 20px;
 }
-
 .mobile-nav-menu ul {
     list-style: none;
     margin: 0;
@@ -620,10 +647,6 @@ footer {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
-    }
-
-    .logo {
-        margin-left: 60px;
     }
 
     .about-content,

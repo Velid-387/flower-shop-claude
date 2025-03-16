@@ -85,6 +85,18 @@ header {
     }
 }
 
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
 #home .hero-content {
     animation: fadeIn 1s ease 0.3s forwards;
     opacity: 0;
