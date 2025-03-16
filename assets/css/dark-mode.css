@@ -28,6 +28,23 @@ body.dark-mode .nav-links a.selected {
     color: #e76f51 !important;
 }
 
+body.dark-mode .mobile-nav-menu {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode .mobile-nav-menu a {
+    color: #fff;
+}
+
+body.dark-mode .mobile-nav-menu a:hover {
+    color: #ccc;
+}
+
+body.dark-mode .hamburger-menu span {
+    background-color: #fff;
+}
+
 /* Home Section */
 body.dark-mode #home {
     background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)),
