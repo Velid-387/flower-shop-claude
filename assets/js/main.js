@@ -88,19 +88,18 @@ window.addEventListener('scroll', () => {
 // Get the hamburger menu button and mobile nav menu elements
 const hamburgerMenu = document.getElementById('hamburgerMenu');
 const mobileNavMenu = document.getElementById('mobileNavMenu');
+const navLinks = mobileNavMenu.querySelectorAll('a');
 
-// Add an event listener to the hamburger menu button
 hamburgerMenu.addEventListener('click', () => {
-  // Toggle the mobile nav menu
+  hamburgerMenu.classList.toggle('open');
   mobileNavMenu.classList.toggle('open');
 });
 
-// Add an event listener to the mobile nav menu links
-mobileNavMenu.addEventListener('click', (e) => {
-  if (e.target.tagName === 'A') {
-    // Close the mobile nav menu when a link is clicked
+navLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    hamburgerMenu.classList.remove('open');
     mobileNavMenu.classList.remove('open');
-  }
+  });
 });
 
 const copyrightElement = document.querySelector('#copyright');
