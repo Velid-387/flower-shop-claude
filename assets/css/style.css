@@ -528,6 +528,60 @@ footer {
     display: none;
 }
 
+/* Style the hamburger menu button */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+/* Style the mobile nav menu */
+.mobile-nav-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.mobile-nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav-menu li {
+    margin-bottom: 10px;
+}
+
+.mobile-nav-menu a {
+    color: #333;
+    text-decoration: none;
+}
+
+.mobile-nav-menu.open {
+    display: block;
+}
+
+/* Add theme-specific styles */
+.light-theme .hamburger-menu span {
+    background-color: #666;
+}
+
+.light-theme .mobile-nav-menu {
+    background-color: #f9f9f9;
+}
+
 /* Scroll to top button */
 #scrollToTop {
     position: fixed;

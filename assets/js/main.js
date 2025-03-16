@@ -84,3 +84,21 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+// Get the hamburger menu button and mobile nav menu elements
+const hamburgerMenu = document.getElementById('hamburgerMenu');
+const mobileNavMenu = document.getElementById('mobileNavMenu');
+
+// Add an event listener to the hamburger menu button
+hamburgerMenu.addEventListener('click', () => {
+  // Toggle the mobile nav menu
+  mobileNavMenu.classList.toggle('open');
+});
+
+// Add an event listener to the mobile nav menu links
+mobileNavMenu.addEventListener('click', (e) => {
+  if (e.target.tagName === 'A') {
+    // Close the mobile nav menu when a link is clicked
+    mobileNavMenu.classList.remove('open');
+  }
+});
